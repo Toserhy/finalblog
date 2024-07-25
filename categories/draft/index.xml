@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Draft - 分类 - Toserhy‘s Blog</title>
+    <link>http://localhost:1313/categories/draft/</link>
+    <description>Draft - 分类 | Toserhy‘s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>astruggleman@outlook.com (Toserhy)</managingEditor>
+      <webMaster>astruggleman@outlook.com (Toserhy)</webMaster><atom:link href="http://localhost:1313/categories/draft/" rel="self" type="application/rss+xml" /></channel>
+</rss>
