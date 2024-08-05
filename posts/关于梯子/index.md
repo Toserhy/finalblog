@@ -23,18 +23,17 @@
 
    …………
 
-   总结起来就是：简单易用0门槛，各种订阅和协议都支持，东厂能管的我们管，东厂不能管的我们还要管，不用转换订阅格式了
+   总结起来就是：简单易用0门槛，各种订阅和协议都支持，东厂能管的我们管，东厂不能管的我们还要管，再也不用来回转换订阅格式了
 
 ### **如何使用Hiddify？**
 
 首先在github项目页下载软件
 
-```markdown
 [Windows免安装版本下载](https://github.com/hiddify/hiddify-next/releases/download/v1.5.2/Hiddify-Windows-Portable-x64.zip)
-[安卓版本下载](https://github.com/hiddify/hiddify-next/releases/download/v1.5.2/Hiddify-Android-universal.apk)
-```
 
-复制订阅链接或节点信息，点击右上角的➕号，选择从粘贴板中导入即可
+[安卓版本下载](https://github.com/hiddify/hiddify-next/releases/download/v1.5.2/Hiddify-Android-universal.apk)
+
+复制我下面提供的订阅链接或节点信息，点击软件右上角的➕号，选择从粘贴板中导入即可
 
 ### **好用稳定又免费的节点信息？**
 

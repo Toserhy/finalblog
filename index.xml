@@ -7,20 +7,89 @@
       <webMaster>astruggleman@outlook.com (Toserhy)</webMaster><lastBuildDate>Sun, 28 Jul 2024 23:58:26 &#43;0800</lastBuildDate>
       <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-  <title>我的第一篇文章</title>
-  <link>http://localhost:1313/posts/%E6%96%B0%E5%BB%BA-%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/</link>
-  <pubDate>Wed, 04 Mar 2020 15:58:26 &#43;0800</pubDate>
-  <author>Toserhy</author>
-  <guid>http://localhost:1313/posts/%E6%96%B0%E5%BB%BA-%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/</guid>
-  <description><![CDATA[]]></description>
-</item>
-<item>
   <title>如何优雅的实现科学上网自由</title>
   <link>http://localhost:1313/posts/%E5%85%B3%E4%BA%8E%E6%A2%AF%E5%AD%90/</link>
   <pubDate>Sun, 28 Jul 2024 23:58:26 &#43;0800</pubDate>
   <author>Toserhy</author>
   <guid>http://localhost:1313/posts/%E5%85%B3%E4%BA%8E%E6%A2%AF%E5%AD%90/</guid>
-  <description><![CDATA[]]></description>
+  <description><![CDATA[免费、稳定的科学上网是科研活动的应有之义和必然要求]]></description>
+</item>
+<item>
+  <title>如何优雅的绕过校园网计费（已失效）</title>
+  <link>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E7%BB%95%E8%BF%87%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A1%E8%B4%B9/</link>
+  <pubDate>Thu, 04 Jul 2024 11:34:22 &#43;0800</pubDate>
+  <author>Toserhy</author>
+  <guid>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E7%BB%95%E8%BF%87%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A1%E8%B4%B9/</guid>
+  <description><![CDATA[不是哥们儿，研究生一个月才免费20G？？？这点流量让兄弟们在QQ农场偷菜用呢？？？你看我办不办你就完了]]></description>
+</item>
+<item>
+  <title>基于快速理解Yolo算法原理视频上，记录对于算法的理解</title>
+  <link>http://localhost:1313/posts/yolo%E7%AE%97%E6%B3%95%E7%9A%84%E6%B5%81%E7%A8%8B%E5%A4%A7%E6%A6%82%E7%90%86%E8%A7%A3/</link>
+  <pubDate>Fri, 28 Jun 2024 15:34:22 &#43;0800</pubDate>
+  <author>Toserhy</author>
+  <guid>http://localhost:1313/posts/yolo%E7%AE%97%E6%B3%95%E7%9A%84%E6%B5%81%E7%A8%8B%E5%A4%A7%E6%A6%82%E7%90%86%E8%A7%A3/</guid>
+  <description><![CDATA[基于快速理解Yolo算法原理视频上，记录对于算法的理解 Yolo算法的训练过程 训练时输入的参数：
+也就是打标签时给予算法的信息：框的大小——xywh；置信度——1；类别——c1、c2、c3（是该类型，对应的种类参数就是1，不是该类型对应的种类参数就是0）；这些信息总共包含8个参数可以记作： $$ y=[P,x,y,w,h,c1,c2,c3] $$
+对于我们打了标签的图像处理：
+假如以上这张图就是打好标签的图片数据，yolo算法首先会对图片进行n✖n的拆分（这里假设是3乘3），紧接着遍历拆分好的每一个小格子，对应有框的格子予以保留，没有框的格子剔除。例子图片中，4、5、6号格子都有框，该怎么处理呢？我们的锚点框都有中心点，yolo算法采取的方法是：格子中有中心点的格子予以保留，没有中心点的剔除
+训练过程：
+简单来说，就是通过反复的迭代，将模型预测出来的目标和正确标定好的目标进行比较，不断缩小预测目标和真实目标之间的差距，而这其中的比较可以简单总结为目标函数的比较：
+位置损失（Localization Loss）：衡量预测的边界框和真实边界框之间的差异。 置信度损失（Confidence Loss）：衡量预测的目标物体存在置信度与实际情况的差异。 分类损失（Class Loss）：衡量预测的类别概率分布与真实类别之间的差异。
+比较后不断缩小目标和真实值之间的差距，其中的“缩小”就是反向传播。反向传播具体解释如下：
+反向传播（Backward Propagation） 假设在进行了一次投篮之后，你发现投篮没有命中（损失值高），你需要调整你的投篮姿势和力量，以提高命中率。这时，你会思考：
+姿势：是不是手臂抬得太低了？下次抬高点。 力量：是不是用了太多力？下次稍微减一点。 这个过程就是“计算梯度”，即找到哪些投篮姿势和力量的改变有助于降低损失值。
+梯度下降算法 计算梯度：确定姿势和力量的哪些微小调整会让投篮结果变得更好（即损失值降低）。 更新参数：根据这些梯度信息，微调你的投篮姿势和力量。 梯度下降算法：每次调整的幅度可以很小，从而逐步找到最佳的投篮姿势和力量。 Adam算法和SGD算法：这些是不同的微调方法，Adam算法考虑了前几次调整的历史信息，可以更快找到最佳解；SGD（随机梯度下降）每次调整一个小批次的数据，适合处理大规模数据。 通过反复练习（即多次正向传播和反向传播），你的投篮姿势和力量会逐渐优化，命中率就会越来越高。这就是深度学习中训练模型的过程——通过不断调整网络参数，使得模型预测更加准确。
+训练结果为best.pt，也就是能够最好识别目标的参数
+推理过程：
+对于输入的图片，使用best.pt对其进行卷积操作，也就是将图片分为很多小格子，然后获得每个格子的 $$ y=[P,x,y,w,h,c1,c2,c3] $$ 这里引入一个问题：无论如何训练，精度多么高，每个小格子都会被识别出有一定几率为某目标，这么多有几率的格子，画出很多的框，如何确定哪些框为最终检测到的目标物呢？这里就要用到一个概念叫交并比——也就是交集和并集的比。如下图：对于汽车的目标检测画出了许多检测框，如何选取最符合的检测结果，将其余对于同一目标不精确、多余的框舍去呢？
+首先先说右边的汽车，使用算法选取置信度最大的框，也就是0.9的框，对图中剩余的检测框进行遍历，对于它附近的两个0.6和0.7的检测框，显然交并比都大于0.5了，这就意味着0.6和0.7的框是对于此目标多余的框，就将其去掉，留下置信度最高的0.9检测框作为最终识别结果。而左侧的两个框对于0.9检测框来说，交并比为0＜0.5，显然是对于另一目标的检测框，便予以保留。
+接下来对于左边的汽车，就选取置信度最高的0.8检测框，再次使用算法进行遍历，最后留下0.8的框。
+上面的内容其实就是推理过程中最重要的一步：非极大抑制值
+其实视频讲的还是比较粗糙，在训练过程中确实很多具体的东西，听的云里雾里不明所以，检测过程也有待完善，例如检测框如何生成？怎么连起来的？后续还要看更具体的理论继续学习。]]></description>
+</item>
+<item>
+  <title>深度学习（yolov5）项目笔记/遇到的问题</title>
+  <link>http://localhost:1313/posts/deeplearning/</link>
+  <pubDate>Tue, 02 Jan 2024 17:06:22 &#43;0800</pubDate>
+  <author>Toserhy</author>
+  <guid>http://localhost:1313/posts/deeplearning/</guid>
+  <description><![CDATA[使用已经训练好的模型 1.在虚拟环境内外安装的库区别很大，虚拟环境内不安装的情况下运行还是会显示模块缺失，无法import库
+2.核心问题：在使用自已经训练好的模型进行推理时， Can&rsquo;t get attribute &lsquo;DetectionModel&rsquo;，经排查最后问题是yolo.py版本问题，要注意训练时的yolo.py版本和推理时yolo.py版本是否一致，否则经典报错： AttributeError: Can&rsquo;t get attribute &lsquo;DetectionModel&rsquo; on &lt;module &lsquo;models.yolo&rsquo; from &lsquo;D:\DEEPLEARN\yolov5-mask-42-master\models\yolo.py&rsquo;&gt;
+解决办法是git使用git上最新的yolo.py，然而又有新问题：最新的yolo引用了过多的新库。解决办法：将多余的新库在yolo.py中引用处删除，即“手动适配版本”]]></description>
+</item>
+<item>
+  <title>Coderwhy项目笔记/遇到的问题</title>
+  <link>http://localhost:1313/posts/about/</link>
+  <pubDate>Sat, 02 Sep 2023 17:06:22 &#43;0800</pubDate>
+  <author>Toserhy</author>
+  <guid>http://localhost:1313/posts/about/</guid>
+  <description><![CDATA[一些笔记 1.调用组件并替换其中的slot时，会将整个slot替换掉，因此动态绑定类或相似操作时，要在slot外面套一层div，对div进行操作，如TabBaritem中的文字颜色绑定]]></description>
+</item>
+<item>
+  <title>router-link中的router-link-exact-active问题</title>
+  <link>http://localhost:1313/posts/active/</link>
+  <pubDate>Sat, 02 Sep 2023 17:06:22 &#43;0800</pubDate>
+  <author>Toserhy</author>
+  <guid>http://localhost:1313/posts/active/</guid>
+  <description><![CDATA[什么是router-link-exact-active？ router-link-exact-active 是 Vue Router 中的一个属性，用于在页面导航时与路由页面绑定以实现精确的活动链接高亮效果。它是 组件的一个属性，用于检测当前路由是否与链接的 to 属性完全匹配。
+当实现页面导航时与路由页面绑定效果时，有两种方法：
+1.在router-link标签中绑定类，通过在style中设置类的样式完成link的高亮或其他效果，示例代码如下：
+`
+Home About Contact ` .active { font-weight: bold; color: blue; }
+2.直接在style中调用link的属性，从而设置其高亮或其他效果，完成绑定。代码如下：
+两种绑定效果有什么区别呢？ 在 Vue.js 中，将 .router-link-exact-active 样式规则设置在样式表（style）中和将其直接设置在 组件标签上的效果是不同的。
+设置在样式表中：如果你将 .router-link-exact-active 样式规则设置在样式表中（如你之前提供的样式代码），那么这个样式规则将会应用到所有使用 Vue Router 的链接，不需要在每个链接上重复设置。这是一种更为统一和集中管理样式的方式。任何精确匹配的链接都会自动具有指定的样式。
+在 &lt;router-link&gt; 组件上设置：如果你在单个 &lt;router-link&gt; 组件上设置 class 属性来指定 .router-link-exact-active 样式类，那么这个样式类仅会应用到该具体链接。这是一种更为特定和个性化的方式，允许你为不同的链接指定不同的样式类，从而实现不同的高亮效果。
+通常，如果你希望所有精确匹配的链接都具有相同的高亮效果，最好将.router-link-exact-active样式规则设置在样式表中。如果你需要不同的链接有不同的高亮效果，可以在链接上设置 class 属性以覆盖全局样式。
+选择哪种方式取决于你的设计需求和样式管理的偏好。]]></description>
+</item>
+<item>
+  <title>第一篇博客</title>
+  <link>http://localhost:1313/posts/first_post/</link>
+  <pubDate>Tue, 29 Aug 2023 09:15:41 &#43;0800</pubDate>
+  <author>Toserhy</author>
+  <guid>http://localhost:1313/posts/first_post/</guid>
+  <description><![CDATA[我的第一篇博客兼简要说明&hellip;&hellip;]]></description>
 </item>
 </channel>
 </rss>

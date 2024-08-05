@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Warp - 标签 - Toserhy‘s Blog</title>
+    <link>http://localhost:56904/tags/warp/</link>
+    <description>Warp - 标签 | Toserhy‘s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>astruggleman@outlook.com (Toserhy)</managingEditor>
+      <webMaster>astruggleman@outlook.com (Toserhy)</webMaster><lastBuildDate>Thu, 04 Jul 2024 11:34:22 &#43;0800</lastBuildDate><atom:link href="http://localhost:56904/tags/warp/" rel="self" type="application/rss+xml" /><item>
+  <title>如何优雅的绕过校园网计费（已失效）</title>
+  <link>http://localhost:56904/posts/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E7%BB%95%E8%BF%87%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A1%E8%B4%B9/</link>
+  <pubDate>Thu, 04 Jul 2024 11:34:22 &#43;0800</pubDate>
+  <author>Toserhy</author>
+  <guid>http://localhost:56904/posts/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E7%BB%95%E8%BF%87%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A1%E8%B4%B9/</guid>
+  <description><![CDATA[不是哥们儿，研究生一个月才免费20G？？？这点流量让兄弟们在QQ农场偷菜用呢？？？你看我办不办你就完了]]></description>
+</item>
+</channel>
+</rss>
