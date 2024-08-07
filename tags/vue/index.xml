@@ -1,23 +1,23 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Vue - 标签 - Toserhy‘s Blog</title>
-    <link>http://localhost:56904/tags/vue/</link>
+    <link>http://localhost:1313/tags/vue/</link>
     <description>Vue - 标签 | Toserhy‘s Blog</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>astruggleman@outlook.com (Toserhy)</managingEditor>
-      <webMaster>astruggleman@outlook.com (Toserhy)</webMaster><lastBuildDate>Sat, 02 Sep 2023 17:06:22 &#43;0800</lastBuildDate><atom:link href="http://localhost:56904/tags/vue/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>astruggleman@outlook.com (Toserhy)</webMaster><lastBuildDate>Sat, 02 Sep 2023 17:06:22 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/vue/" rel="self" type="application/rss+xml" /><item>
   <title>Coderwhy项目笔记/遇到的问题</title>
-  <link>http://localhost:56904/posts/about/</link>
+  <link>http://localhost:1313/posts/about/</link>
   <pubDate>Sat, 02 Sep 2023 17:06:22 &#43;0800</pubDate>
   <author>Toserhy</author>
-  <guid>http://localhost:56904/posts/about/</guid>
+  <guid>http://localhost:1313/posts/about/</guid>
   <description><![CDATA[一些笔记 1.调用组件并替换其中的slot时，会将整个slot替换掉，因此动态绑定类或相似操作时，要在slot外面套一层div，对div进行操作，如TabBaritem中的文字颜色绑定]]></description>
 </item>
 <item>
   <title>router-link中的router-link-exact-active问题</title>
-  <link>http://localhost:56904/posts/active/</link>
+  <link>http://localhost:1313/posts/active/</link>
   <pubDate>Sat, 02 Sep 2023 17:06:22 &#43;0800</pubDate>
   <author>Toserhy</author>
-  <guid>http://localhost:56904/posts/active/</guid>
+  <guid>http://localhost:1313/posts/active/</guid>
   <description><![CDATA[什么是router-link-exact-active？ router-link-exact-active 是 Vue Router 中的一个属性，用于在页面导航时与路由页面绑定以实现精确的活动链接高亮效果。它是 组件的一个属性，用于检测当前路由是否与链接的 to 属性完全匹配。
 当实现页面导航时与路由页面绑定效果时，有两种方法：
 1.在router-link标签中绑定类，通过在style中设置类的样式完成link的高亮或其他效果，示例代码如下：

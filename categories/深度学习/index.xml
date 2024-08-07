@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>深度学习 - 分类 - Toserhy‘s Blog</title>
-    <link>http://localhost:56904/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</link>
+    <link>http://localhost:1313/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</link>
     <description>深度学习 - 分类 | Toserhy‘s Blog</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>astruggleman@outlook.com (Toserhy)</managingEditor>
-      <webMaster>astruggleman@outlook.com (Toserhy)</webMaster><lastBuildDate>Fri, 28 Jun 2024 15:34:22 &#43;0800</lastBuildDate><atom:link href="http://localhost:56904/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>astruggleman@outlook.com (Toserhy)</webMaster><lastBuildDate>Fri, 28 Jun 2024 15:34:22 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" rel="self" type="application/rss+xml" /><item>
   <title>基于快速理解Yolo算法原理视频上，记录对于算法的理解</title>
-  <link>http://localhost:56904/posts/yolo%E7%AE%97%E6%B3%95%E7%9A%84%E6%B5%81%E7%A8%8B%E5%A4%A7%E6%A6%82%E7%90%86%E8%A7%A3/</link>
+  <link>http://localhost:1313/posts/yolo%E7%AE%97%E6%B3%95%E7%9A%84%E6%B5%81%E7%A8%8B%E5%A4%A7%E6%A6%82%E7%90%86%E8%A7%A3/</link>
   <pubDate>Fri, 28 Jun 2024 15:34:22 &#43;0800</pubDate>
   <author>Toserhy</author>
-  <guid>http://localhost:56904/posts/yolo%E7%AE%97%E6%B3%95%E7%9A%84%E6%B5%81%E7%A8%8B%E5%A4%A7%E6%A6%82%E7%90%86%E8%A7%A3/</guid>
+  <guid>http://localhost:1313/posts/yolo%E7%AE%97%E6%B3%95%E7%9A%84%E6%B5%81%E7%A8%8B%E5%A4%A7%E6%A6%82%E7%90%86%E8%A7%A3/</guid>
   <description><![CDATA[基于快速理解Yolo算法原理视频上，记录对于算法的理解 Yolo算法的训练过程 训练时输入的参数：
 也就是打标签时给予算法的信息：框的大小——xywh；置信度——1；类别——c1、c2、c3（是该类型，对应的种类参数就是1，不是该类型对应的种类参数就是0）；这些信息总共包含8个参数可以记作： $$ y=[P,x,y,w,h,c1,c2,c3] $$
 对于我们打了标签的图像处理：
@@ -31,10 +31,10 @@
 </item>
 <item>
   <title>深度学习（yolov5）项目笔记/遇到的问题</title>
-  <link>http://localhost:56904/posts/deeplearning/</link>
+  <link>http://localhost:1313/posts/deeplearning/</link>
   <pubDate>Tue, 02 Jan 2024 17:06:22 &#43;0800</pubDate>
   <author>Toserhy</author>
-  <guid>http://localhost:56904/posts/deeplearning/</guid>
+  <guid>http://localhost:1313/posts/deeplearning/</guid>
   <description><![CDATA[使用已经训练好的模型 1.在虚拟环境内外安装的库区别很大，虚拟环境内不安装的情况下运行还是会显示模块缺失，无法import库
 2.核心问题：在使用自已经训练好的模型进行推理时， Can&rsquo;t get attribute &lsquo;DetectionModel&rsquo;，经排查最后问题是yolo.py版本问题，要注意训练时的yolo.py版本和推理时yolo.py版本是否一致，否则经典报错： AttributeError: Can&rsquo;t get attribute &lsquo;DetectionModel&rsquo; on &lt;module &lsquo;models.yolo&rsquo; from &lsquo;D:\DEEPLEARN\yolov5-mask-42-master\models\yolo.py&rsquo;&gt;
 解决办法是git使用git上最新的yolo.py，然而又有新问题：最新的yolo引用了过多的新库。解决办法：将多余的新库在yolo.py中引用处删除，即“手动适配版本”]]></description>

@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>校园网 - 标签 - Toserhy‘s Blog</title>
+    <link>http://localhost:1313/tags/%E6%A0%A1%E5%9B%AD%E7%BD%91/</link>
+    <description>校园网 - 标签 | Toserhy‘s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>astruggleman@outlook.com (Toserhy)</managingEditor>
+      <webMaster>astruggleman@outlook.com (Toserhy)</webMaster><lastBuildDate>Wed, 07 Aug 2024 12:34:22 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%A0%A1%E5%9B%AD%E7%BD%91/" rel="self" type="application/rss+xml" /><item>
+  <title>如何不太优雅的绕过校园网计费</title>
+  <link>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E4%B8%8D%E5%A4%AA%E4%BC%98%E9%9B%85%E7%9A%84%E7%BB%95%E8%BF%87%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A1%E8%B4%B9/</link>
+  <pubDate>Wed, 07 Aug 2024 12:34:22 &#43;0800</pubDate>
+  <author>Toserhy</author>
+  <guid>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E4%B8%8D%E5%A4%AA%E4%BC%98%E9%9B%85%E7%9A%84%E7%BB%95%E8%BF%87%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A1%E8%B4%B9/</guid>
+  <description><![CDATA[原先的方法被封了，弄个丐版凑合用吧。。。。。。]]></description>
+</item>
+</channel>
+</rss>

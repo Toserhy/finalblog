@@ -1,31 +1,39 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>所有文章 - Toserhy‘s Blog</title>
-    <link>http://localhost:56904/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>所有文章 | Toserhy‘s Blog</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>astruggleman@outlook.com (Toserhy)</managingEditor>
-      <webMaster>astruggleman@outlook.com (Toserhy)</webMaster><lastBuildDate>Sun, 28 Jul 2024 23:58:26 &#43;0800</lastBuildDate><atom:link href="http://localhost:56904/posts/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>astruggleman@outlook.com (Toserhy)</webMaster><lastBuildDate>Wed, 07 Aug 2024 12:34:22 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>如何不太优雅的绕过校园网计费</title>
+  <link>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E4%B8%8D%E5%A4%AA%E4%BC%98%E9%9B%85%E7%9A%84%E7%BB%95%E8%BF%87%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A1%E8%B4%B9/</link>
+  <pubDate>Wed, 07 Aug 2024 12:34:22 &#43;0800</pubDate>
+  <author>Toserhy</author>
+  <guid>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E4%B8%8D%E5%A4%AA%E4%BC%98%E9%9B%85%E7%9A%84%E7%BB%95%E8%BF%87%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A1%E8%B4%B9/</guid>
+  <description><![CDATA[原先的方法被封了，弄个丐版凑合用吧。。。。。。]]></description>
+</item>
+<item>
   <title>如何优雅的实现科学上网自由</title>
-  <link>http://localhost:56904/posts/%E5%85%B3%E4%BA%8E%E6%A2%AF%E5%AD%90/</link>
+  <link>http://localhost:1313/posts/%E5%85%B3%E4%BA%8E%E6%A2%AF%E5%AD%90/</link>
   <pubDate>Sun, 28 Jul 2024 23:58:26 &#43;0800</pubDate>
   <author>Toserhy</author>
-  <guid>http://localhost:56904/posts/%E5%85%B3%E4%BA%8E%E6%A2%AF%E5%AD%90/</guid>
+  <guid>http://localhost:1313/posts/%E5%85%B3%E4%BA%8E%E6%A2%AF%E5%AD%90/</guid>
   <description><![CDATA[免费、稳定的科学上网是科研活动的应有之义和必然要求]]></description>
 </item>
 <item>
   <title>如何优雅的绕过校园网计费（已失效）</title>
-  <link>http://localhost:56904/posts/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E7%BB%95%E8%BF%87%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A1%E8%B4%B9/</link>
+  <link>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E7%BB%95%E8%BF%87%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A1%E8%B4%B9/</link>
   <pubDate>Thu, 04 Jul 2024 11:34:22 &#43;0800</pubDate>
   <author>Toserhy</author>
-  <guid>http://localhost:56904/posts/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E7%BB%95%E8%BF%87%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A1%E8%B4%B9/</guid>
+  <guid>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E7%9A%84%E7%BB%95%E8%BF%87%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A1%E8%B4%B9/</guid>
   <description><![CDATA[不是哥们儿，研究生一个月才免费20G？？？这点流量让兄弟们在QQ农场偷菜用呢？？？你看我办不办你就完了]]></description>
 </item>
 <item>
   <title>基于快速理解Yolo算法原理视频上，记录对于算法的理解</title>
-  <link>http://localhost:56904/posts/yolo%E7%AE%97%E6%B3%95%E7%9A%84%E6%B5%81%E7%A8%8B%E5%A4%A7%E6%A6%82%E7%90%86%E8%A7%A3/</link>
+  <link>http://localhost:1313/posts/yolo%E7%AE%97%E6%B3%95%E7%9A%84%E6%B5%81%E7%A8%8B%E5%A4%A7%E6%A6%82%E7%90%86%E8%A7%A3/</link>
   <pubDate>Fri, 28 Jun 2024 15:34:22 &#43;0800</pubDate>
   <author>Toserhy</author>
-  <guid>http://localhost:56904/posts/yolo%E7%AE%97%E6%B3%95%E7%9A%84%E6%B5%81%E7%A8%8B%E5%A4%A7%E6%A6%82%E7%90%86%E8%A7%A3/</guid>
+  <guid>http://localhost:1313/posts/yolo%E7%AE%97%E6%B3%95%E7%9A%84%E6%B5%81%E7%A8%8B%E5%A4%A7%E6%A6%82%E7%90%86%E8%A7%A3/</guid>
   <description><![CDATA[基于快速理解Yolo算法原理视频上，记录对于算法的理解 Yolo算法的训练过程 训练时输入的参数：
 也就是打标签时给予算法的信息：框的大小——xywh；置信度——1；类别——c1、c2、c3（是该类型，对应的种类参数就是1，不是该类型对应的种类参数就是0）；这些信息总共包含8个参数可以记作： $$ y=[P,x,y,w,h,c1,c2,c3] $$
 对于我们打了标签的图像处理：
@@ -47,28 +55,28 @@
 </item>
 <item>
   <title>深度学习（yolov5）项目笔记/遇到的问题</title>
-  <link>http://localhost:56904/posts/deeplearning/</link>
+  <link>http://localhost:1313/posts/deeplearning/</link>
   <pubDate>Tue, 02 Jan 2024 17:06:22 &#43;0800</pubDate>
   <author>Toserhy</author>
-  <guid>http://localhost:56904/posts/deeplearning/</guid>
+  <guid>http://localhost:1313/posts/deeplearning/</guid>
   <description><![CDATA[使用已经训练好的模型 1.在虚拟环境内外安装的库区别很大，虚拟环境内不安装的情况下运行还是会显示模块缺失，无法import库
 2.核心问题：在使用自已经训练好的模型进行推理时， Can&rsquo;t get attribute &lsquo;DetectionModel&rsquo;，经排查最后问题是yolo.py版本问题，要注意训练时的yolo.py版本和推理时yolo.py版本是否一致，否则经典报错： AttributeError: Can&rsquo;t get attribute &lsquo;DetectionModel&rsquo; on &lt;module &lsquo;models.yolo&rsquo; from &lsquo;D:\DEEPLEARN\yolov5-mask-42-master\models\yolo.py&rsquo;&gt;
 解决办法是git使用git上最新的yolo.py，然而又有新问题：最新的yolo引用了过多的新库。解决办法：将多余的新库在yolo.py中引用处删除，即“手动适配版本”]]></description>
 </item>
 <item>
   <title>Coderwhy项目笔记/遇到的问题</title>
-  <link>http://localhost:56904/posts/about/</link>
+  <link>http://localhost:1313/posts/about/</link>
   <pubDate>Sat, 02 Sep 2023 17:06:22 &#43;0800</pubDate>
   <author>Toserhy</author>
-  <guid>http://localhost:56904/posts/about/</guid>
+  <guid>http://localhost:1313/posts/about/</guid>
   <description><![CDATA[一些笔记 1.调用组件并替换其中的slot时，会将整个slot替换掉，因此动态绑定类或相似操作时，要在slot外面套一层div，对div进行操作，如TabBaritem中的文字颜色绑定]]></description>
 </item>
 <item>
   <title>router-link中的router-link-exact-active问题</title>
-  <link>http://localhost:56904/posts/active/</link>
+  <link>http://localhost:1313/posts/active/</link>
   <pubDate>Sat, 02 Sep 2023 17:06:22 &#43;0800</pubDate>
   <author>Toserhy</author>
-  <guid>http://localhost:56904/posts/active/</guid>
+  <guid>http://localhost:1313/posts/active/</guid>
   <description><![CDATA[什么是router-link-exact-active？ router-link-exact-active 是 Vue Router 中的一个属性，用于在页面导航时与路由页面绑定以实现精确的活动链接高亮效果。它是 组件的一个属性，用于检测当前路由是否与链接的 to 属性完全匹配。
 当实现页面导航时与路由页面绑定效果时，有两种方法：
 1.在router-link标签中绑定类，通过在style中设置类的样式完成link的高亮或其他效果，示例代码如下：
@@ -83,10 +91,10 @@ Home About Contact ` .active { font-weight: bold; color: blue; }
 </item>
 <item>
   <title>第一篇博客</title>
-  <link>http://localhost:56904/posts/first_post/</link>
+  <link>http://localhost:1313/posts/first_post/</link>
   <pubDate>Tue, 29 Aug 2023 09:15:41 &#43;0800</pubDate>
   <author>Toserhy</author>
-  <guid>http://localhost:56904/posts/first_post/</guid>
+  <guid>http://localhost:1313/posts/first_post/</guid>
   <description><![CDATA[我的第一篇博客兼简要说明&hellip;&hellip;]]></description>
 </item>
 </channel>
