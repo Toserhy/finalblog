@@ -43,6 +43,12 @@ https://deeplx.missuo.ru/translate?key=lX0VTKfOUvQUwLrFcNwg6nN5Vfidp0rXECJP8b1zv
 
 
 
+### 梯子——国外开源国内崛起的必备工具
+
+我爱说实话铁铁，我的节点多的用不完，需要可以找我要，我给你补。没有硬性纯净度需求的情况下去机场买节点纯智商税，各种魔法插件或者客户端app也都是国内二道贩子的换皮赚钱工具。
+
+
+
 
 
 
