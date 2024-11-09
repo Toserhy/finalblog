@@ -4,7 +4,23 @@
     <link>http://localhost:1313/posts/</link>
     <description>所有文章 | Toserhy‘s Blog</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>astruggleman@outlook.com (Toserhy)</managingEditor>
-      <webMaster>astruggleman@outlook.com (Toserhy)</webMaster><lastBuildDate>Fri, 20 Sep 2024 23:58:26 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+      <webMaster>astruggleman@outlook.com (Toserhy)</webMaster><lastBuildDate>Sat, 09 Nov 2024 11:34:22 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>自动连接北建大校园网</title>
+  <link>http://localhost:1313/posts/%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5%E5%8C%97%E5%BB%BA%E5%A4%A7%E6%A0%A1%E5%9B%AD%E7%BD%91/</link>
+  <pubDate>Sat, 09 Nov 2024 11:34:22 &#43;0800</pubDate>
+  <author>Toserhy</author>
+  <guid>http://localhost:1313/posts/%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5%E5%8C%97%E5%BB%BA%E5%A4%A7%E6%A0%A1%E5%9B%AD%E7%BD%91/</guid>
+  <description><![CDATA[问题来了，为什么每天要自动断网？]]></description>
+</item>
+<item>
+  <title>多种工具一揽子强化，促进科研稳中向好</title>
+  <link>http://localhost:1313/posts/%E5%A4%9A%E7%A7%8D%E5%B7%A5%E5%85%B7%E4%B8%80%E6%8F%BD%E5%AD%90%E5%BC%BA%E5%8C%96%E4%BF%83%E8%BF%9B%E7%A7%91%E7%A0%94%E7%A8%B3%E4%B8%AD%E5%90%91%E5%A5%BD/</link>
+  <pubDate>Wed, 09 Oct 2024 11:34:22 &#43;0800</pubDate>
+  <author>Toserhy</author>
+  <guid>http://localhost:1313/posts/%E5%A4%9A%E7%A7%8D%E5%B7%A5%E5%85%B7%E4%B8%80%E6%8F%BD%E5%AD%90%E5%BC%BA%E5%8C%96%E4%BF%83%E8%BF%9B%E7%A7%91%E7%A0%94%E7%A8%B3%E4%B8%AD%E5%90%91%E5%A5%BD/</guid>
+  <description><![CDATA[是时候给你的科研工具强化附魔了]]></description>
+</item>
+<item>
   <title>也是去过内蒙古了</title>
   <link>http://localhost:1313/posts/%E5%86%85%E8%92%99%E5%8F%A4/</link>
   <pubDate>Fri, 20 Sep 2024 23:58:26 &#43;0800</pubDate>
@@ -96,14 +112,6 @@ Home About Contact ` .active { font-weight: bold; color: blue; }
 在 &lt;router-link&gt; 组件上设置：如果你在单个 &lt;router-link&gt; 组件上设置 class 属性来指定 .router-link-exact-active 样式类，那么这个样式类仅会应用到该具体链接。这是一种更为特定和个性化的方式，允许你为不同的链接指定不同的样式类，从而实现不同的高亮效果。
 通常，如果你希望所有精确匹配的链接都具有相同的高亮效果，最好将.router-link-exact-active样式规则设置在样式表中。如果你需要不同的链接有不同的高亮效果，可以在链接上设置 class 属性以覆盖全局样式。
 选择哪种方式取决于你的设计需求和样式管理的偏好。]]></description>
-</item>
-<item>
-  <title>第一篇博客</title>
-  <link>http://localhost:1313/posts/first_post/</link>
-  <pubDate>Tue, 29 Aug 2023 09:15:41 &#43;0800</pubDate>
-  <author>Toserhy</author>
-  <guid>http://localhost:1313/posts/first_post/</guid>
-  <description><![CDATA[我的第一篇博客兼简要说明&hellip;&hellip;]]></description>
 </item>
 </channel>
 </rss>
