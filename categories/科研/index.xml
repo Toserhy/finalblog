@@ -1,16 +1,22 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>科研 - 分类 - Toserhy‘s Blog</title>
     <link>http://localhost:1313/categories/%E7%A7%91%E7%A0%94/</link>
-    <description>科研 - 分类 | Toserhy‘s Blog</description>
-    <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>astruggleman@outlook.com (Toserhy)</managingEditor>
-      <webMaster>astruggleman@outlook.com (Toserhy)</webMaster><lastBuildDate>Wed, 09 Oct 2024 11:34:22 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E7%A7%91%E7%A0%94/" rel="self" type="application/rss+xml" /><item>
-  <title>多种工具一揽子强化，促进科研稳中向好</title>
-  <link>http://localhost:1313/posts/%E5%A4%9A%E7%A7%8D%E5%B7%A5%E5%85%B7%E4%B8%80%E6%8F%BD%E5%AD%90%E5%BC%BA%E5%8C%96%E4%BF%83%E8%BF%9B%E7%A7%91%E7%A0%94%E7%A8%B3%E4%B8%AD%E5%90%91%E5%A5%BD/</link>
-  <pubDate>Wed, 09 Oct 2024 11:34:22 &#43;0800</pubDate>
-  <author>Toserhy</author>
-  <guid>http://localhost:1313/posts/%E5%A4%9A%E7%A7%8D%E5%B7%A5%E5%85%B7%E4%B8%80%E6%8F%BD%E5%AD%90%E5%BC%BA%E5%8C%96%E4%BF%83%E8%BF%9B%E7%A7%91%E7%A0%94%E7%A8%B3%E4%B8%AD%E5%90%91%E5%A5%BD/</guid>
-  <description><![CDATA[是时候给你的科研工具强化附魔了]]></description>
-</item>
-</channel>
+    <description>Toserhy‘s Blog</description>
+    <generator>Hugo 0.138.0 &amp; FixIt v0.3.15</generator>
+    <language>en</language>
+    <managingEditor>astruggleman@outlook.com (Toserhy)</managingEditor>
+    <webMaster>astruggleman@outlook.com (Toserhy)</webMaster>
+    <lastBuildDate>Wed, 09 Oct 2024 11:34:22 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E7%A7%91%E7%A0%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>多种工具一揽子强化，促进科研稳中向好</title>
+      <link>http://localhost:1313/posts/%E5%A4%9A%E7%A7%8D%E5%B7%A5%E5%85%B7%E4%B8%80%E6%8F%BD%E5%AD%90%E5%BC%BA%E5%8C%96%E4%BF%83%E8%BF%9B%E7%A7%91%E7%A0%94%E7%A8%B3%E4%B8%AD%E5%90%91%E5%A5%BD/</link>
+      <pubDate>Wed, 09 Oct 2024 11:34:22 +0800</pubDate><author>astruggleman@outlook.com (Toserhy)</author>
+      <guid>http://localhost:1313/posts/%E5%A4%9A%E7%A7%8D%E5%B7%A5%E5%85%B7%E4%B8%80%E6%8F%BD%E5%AD%90%E5%BC%BA%E5%8C%96%E4%BF%83%E8%BF%9B%E7%A7%91%E7%A0%94%E7%A8%B3%E4%B8%AD%E5%90%91%E5%A5%BD/</guid>
+      <category domain="http://localhost:1313/categories/%E7%A7%91%E7%A0%94/">科研</category>
+      <description>是时候给你的科研工具强化附魔了</description>
+    </item>
+  </channel>
 </rss>
