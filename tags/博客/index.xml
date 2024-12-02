@@ -8,8 +8,16 @@
     <language>en</language>
     <managingEditor>astruggleman@outlook.com (Toserhy)</managingEditor>
     <webMaster>astruggleman@outlook.com (Toserhy)</webMaster>
-    <lastBuildDate>Tue, 29 Aug 2023 09:15:41 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 17 Nov 2024 13:45:10 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客自建历程</title>
+      <link>http://localhost:1313/posts/573bc6a/</link>
+      <pubDate>Sun, 17 Nov 2024 13:45:10 +0800</pubDate><author>astruggleman@outlook.com (Toserhy)</author>
+      <guid>http://localhost:1313/posts/573bc6a/</guid>
+      <category domain="http://localhost:1313/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/">关于博客</category>
+      <description>为了折腾出个自己的博客花了不少时间，那就记录一下吧</description>
+    </item>
     <item>
       <title>第一篇博客</title>
       <link>http://localhost:1313/posts/first_post/</link>

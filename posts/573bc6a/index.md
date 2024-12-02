@@ -19,7 +19,7 @@ events:
   - timestamp: 2023-10-18
     content: 更换主题为Fixit
   - timestamp: 2024-04-03
-    content: vercel被墙，因此购买域名406418.xyz绑定；至此为了折腾博客花了人生中的第一个美刀
+    content: vercel被墙，因此购买域名绑定；至此为了折腾博客花了人生中的第一个美刀
   - timestamp: 2024-10-11
     content: 做了个人页面，和博客互通————关于我→
   - timestamp: 2024-11-17
